@@ -1465,6 +1465,53 @@ section.visible, .why-choose.visible, .services.visible, .comparison.visible, .b
 } 
 
 @media (max-width: 480px) {
+  html, body {
+    min-width: 100vw;
+    font-size: 15px;
+  }
+  header.hero {
+    padding: 19px 2vw 12px 2vw;
+  }
+  header.hero h1 {
+    font-size: 1.12rem;
+    margin-bottom: 7px;
+  }
+  .header-attract-block {
+    gap: 5px;
+    margin: 10px auto 6px auto;
+  }
+  .header-tagline { font-size: 0.97rem; }
+  .header-cta { font-size: 0.97rem; padding: 7px 8px; }
+  .cta-panel { gap: 2px; margin: 7px auto 7px auto; }
+  .cta-group { gap: 2px; flex-wrap: wrap; }
+  .cta-action {
+    font-size: 0.89rem;
+    padding: 6px 6px;
+    min-width: 0;
+    border-radius: 14px;
+    margin: 0;
+  }
+  .cta-action span {
+    font-size: 1.03em;
+  }
+  .subtitle {
+    font-size: 0.99rem;
+    margin: 8px 0 2px 0;
+  }
+  .contact-quick {
+    padding: 8px 2px 5px 2px;
+    font-size: 0.97rem;
+    border-radius: 10px;
+    margin-top: 12px;
+  }
+  .contact-quick p {
+    margin: 5px 0;
+    font-size: 0.97rem;
+  }
+  .contact-quick a {
+    font-size: 0.97rem;
+    padding: 0;
+  }
   .service-modal-content {
     padding: 18px 6px 14px 6px;
     font-size: 0.98rem;
@@ -1476,6 +1523,13 @@ section.visible, .why-choose.visible, .services.visible, .comparison.visible, .b
   #serviceModalTitle {
     font-size: 1.08rem;
   }
+}
+@media (max-width: 375px) {
+  header.hero h1 { font-size: 0.98rem; }
+  .header-tagline { font-size: 0.85rem; }
+  .header-cta { font-size: 0.87rem; padding: 5px 6px; }
+  .cta-action { font-size: 0.8rem; padding: 5px 4px; }
+  .subtitle { font-size: 0.89rem; }
 }
 
 .comparison {
