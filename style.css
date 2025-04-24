@@ -190,6 +190,7 @@ header.hero > *:not(.hero-3d-bg) {
 @media (max-width: 480px) {
     .header-tagline { font-size: 0.97rem; }
     .header-cta { font-size: 0.97rem; padding: 7px 8px; }
+    .header-attract-block { padding: 0 10px; }
 }
 
 /* CTA Panel Styles */
