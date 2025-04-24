@@ -1,12 +1,12 @@
-# laptop-reparing-website-
+# Gagan Computer Solution
 
 This is a responsive, animated one-page website for Gagan Computer Solution, specializing in laptop and desktop repair services.
 
 ## Features
-- Modern 3D SVG header with floating tech elements
+- Modern 3D SVG header Gagan Computer Solutioning tech elements
 - Animated, glowing tech-themed emojis
 - Customer-attracting tagline and multi-row CTA panel
-- Service listings, testimonials, and more
+- Service listGagan Computer Solutionimonials, and more
 - Fully responsive and visually appealing
 
 ## Quick Start
