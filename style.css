@@ -2,6 +2,15 @@ html {
     box-sizing: border-box;
     width: 100vw;
     min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    min-width: 100vw;
+    max-width: 100vw;
     overflow-x: hidden;
 }
 *, *:before, *:after {
@@ -32,6 +41,8 @@ section, .why-choose, .services, .comparison, .brands, .testimonials, .faq, .con
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 header.hero {
@@ -1524,6 +1535,13 @@ section.visible, .why-choose.visible, .services.visible, .comparison.visible, .b
     font-size: 1.08rem;
   }
 }
+@media (max-width: 414px) {
+  header.hero h1 { font-size: 1.1rem; }
+  .header-tagline { font-size: 0.9rem; }
+  .header-cta { font-size: 0.9rem; padding: 6px 6px; }
+  .cta-action { font-size: 0.85rem; padding: 5px 4px; }
+  .subtitle { font-size: 0.89rem; }
+}
 @media (max-width: 375px) {
   header.hero h1 { font-size: 0.98rem; }
   .header-tagline { font-size: 0.85rem; }
@@ -1548,7 +1566,9 @@ section.visible, .why-choose.visible, .services.visible, .comparison.visible, .b
 .comparison-table-wrap {
     overflow-x: auto;
     width: 100%;
+    max-width: 100vw;
     -webkit-overflow-scrolling: touch;
+    padding-bottom: 8px;
 }
 @media (max-width: 700px) {
     .comparison-table {
